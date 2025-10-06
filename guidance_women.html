@@ -1,0 +1,201 @@
+<!DOCTYPE html><html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GUIDANCE WOMEN - PRIVATE SHIROKANE</title>
+  <link rel="icon" href="images/logo_1.png" type="image/png" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #1c1c1c;
+      color: #f9f9f9;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 14px;
+      line-height: 1.8;
+    }.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  position: relative;
+  z-index: 10;
+}
+
+.nav-logo img {
+  height: 50px;
+  object-fit: contain;
+  filter: brightness(90%) drop-shadow(0 1px 1px #ccc);
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #f9f9f9;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger span {
+  height: 3px;
+  width: 25px;
+  background: #f9f9f9;
+  margin: 4px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 15px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+
+.banner {
+  background: url('images/banner_2.png') center center / cover no-repeat;
+  height: 300px;
+}
+
+.content {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.content h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #f9f9f9;
+}
+
+.section-text {
+  display: flex;
+}
+
+.section-text::before {
+  content: "\3000";
+  flex-shrink: 0;
+  width: 2em;
+  display: block;
+}
+
+.section-text p {
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+}
+
+.entry-button {
+  display: block;
+  margin: 40px auto;
+  padding: 12px 30px;
+  background-color: #ccc;
+  color: #000;
+  text-align: center;
+  width: fit-content;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+  </style>
+</head>
+<body>
+  <header class="nav-container">
+    <div class="nav-logo">
+      <a href="top.html">
+        <img src="images/logo_1.png" alt="PRIVATE SHIROKANE Logo">
+      </a>
+    </div>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="top.html">Top</a>
+      <a href="guidance_men.html">男性会員入会</a>
+      <a href="guidance_women.html">女性会員入会</a>
+      <a href="system.html">料金・システム</a>
+      <a href="pickup_member.html">注目会員様情報</a>
+      <a href="members_only.html">会員専用Page</a>
+      <a href="https://kousaiclub.jp/contact.html">お問合せ</a>
+    </nav>
+    <div class="hamburger" onclick="document.getElementById('navLinks').classList.toggle('active')">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>  <div class="banner"></div>  <div class="content">
+    <h2>GUIDANCE WOMEN</h2><div class="section">
+  <div class="section-title">1. ご応募</div>
+  <div class="section-text">
+    <p>ご応募は、公式LINEまたはメールから承っております。まずは簡単な自己紹介をいただき、写真を添えてご連絡ください。</p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">2. 面談</div>
+  <div class="section-text">
+    <p>当会スタッフとの面談を通じて、システムや活動内容をご説明させていただきます。ご不明点はその場でお気軽にご質問ください。</p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">3. 登録・プロフィール作成</div>
+  <div class="section-text">
+    <p>登録手続き後、プロフィール撮影や必要情報の入力を行います。あなたらしさが伝わるようスタッフがサポートいたします。</p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">4. セッティング開始</div>
+  <div class="section-text">
+    <p>会員様からの希望に基づき、条件に合う場合にはセッティングを行います。事前確認・当日のサポートも行っております。</p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">5. アフターサポート</div>
+  <div class="section-text">
+    <p>活動に関するご相談・トラブルへの対応・プロフィール修正など、アフターケアも充実しています。安心してご参加ください。</p>
+  </div>
+</div>
+
+<a class="entry-button" href="https://kousaiclub.jp/contact.html">▶ ご応募はこちら</a>
+
+  </div>
+</body>
+</html>
